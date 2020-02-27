@@ -1,15 +1,28 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "## Description",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "mysql": "^2.16.0"
-  }
+    "fs": "0.0.1-security",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jspielberger/homework_11.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jspielberger/homework_11/issues"
+  },
+  "homepage": "https://github.com/jspielberger/homework_11#readme"
 }
