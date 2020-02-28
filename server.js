@@ -3,7 +3,7 @@ const express = require('express');
 const path = require("path");
 // need fs to read and write to files
 const fs = require("fs");
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 //express template
 const app = express();
 var notes = [];
